@@ -65,6 +65,8 @@ if(!isset($page_title)) { $page_title = 'Project ABCD'; }
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="reports_summary.php">Summary</a>';
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="list_dresses.php">List<span class="sr-only">(current)</span></a>';
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="resources.php">Resources</a>';
+            echo '<li class="nav-item active"><a class="nav-link" id="header" href="shop1_redbubble.php">Shop 1<span class="sr-only">(current)</span></a></li>';
+            echo '<li class="nav-item active"><a class="nav-link" id="header" href="shop2_society6.php">Shop 2<span class="sr-only">(current)</span></a></li>';
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="preferences.php">Preferences<span class="sr-only">(current)</span></a></li>';
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="about.php">About<span class="sr-only">(current)</span></a></li>';
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="help.php">Help<span class="sr-only">(current)</span></a></li>';
@@ -83,6 +85,8 @@ if(!isset($page_title)) { $page_title = 'Project ABCD'; }
             if(isset($_SESSION['role'])){
                 echo '<li class="nav-item active"><a class="nav-link" id="header" href="resources.php">Resources</a>';
             }
+            echo '<li class="nav-item active"><a class="nav-link" id="header" href="shop1_redbubble.php">Shop 1<span class="sr-only">(current)</span></a></li>';
+            echo '<li class="nav-item active"><a class="nav-link" id="header" href="https://society6.com/abcd_project/all">Shop 2<span class="sr-only">(current)</span></a></li>';
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="preferences.php">Preferences<span class="sr-only">(current)</span></a></li>';
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="about.php">About<span class="sr-only">(current)</span></a></li>';
             echo '<li class="nav-item active"><a class="nav-link" id="header" href="help.php">Help<span class="sr-only">(current)</span></a></li>';
